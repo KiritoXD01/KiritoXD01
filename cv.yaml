@@ -12,7 +12,7 @@ cv:
 
   sections:
     "About Me":
-      - "Backend developer with 5+ years of experience building scalable web and real-time systems. Proficient in PHP/Laravel and Node.js (NestJS); experienced with cloud deployments, performance optimization, and production-ready API design. Looking for backend roles focused on scalable architecture and reliable delivery."
+      - "Full-stack developer with 5+ years building scalable web applications using Vue.js, Laravel, and Node.js. Expertise in modern frontend frameworks (Vue 3, Nuxt, Inertia) paired with backend architecture (Laravel, NestJS). Skilled in real-time systems, performance optimization, and deploying production-ready applications. Passionate about building responsive, data-driven UIs with composable, maintainable code."
 
     "Experience":
       - company: "Curotec"
@@ -31,12 +31,13 @@ cv:
         start_date: "2021-06"
         end_date: "2025-12"
         location: "Remote"
-        summary: "Led backend development for client projects, focusing on rapid admin interfaces, integrations, and real-time components."
+        summary: "Led full-stack development for client projects using Laravel/Inertia and Vue.js, focusing on admin dashboards, real-time features, and API-first architectures."
         highlights:
-          - "Built multiple projects using Laravel and Filament to accelerate admin panel delivery."
-          - "Developed NFT game backend components with NestJS and Socket.IO to support real-time multiplayer interactions."
-          - "Integrated Firebase services (Auth, Firestore, Cloud Functions, Messaging, Storage)."
-          - "Managed container-based deployments with Docker and CapRover; used Laravel Forge for cloud deployments."
+          - "Built multiple Laravel + Inertia + Vue.js projects for rapid admin panel delivery."
+          - "Developed responsive UIs using Vue 3 Composition API and Nuxt for dynamic dashboards and data visualization."
+          - "Architected NFT game backend with NestJS and Socket.IO; integrated real-time game state with Vue.js frontends."
+          - "Integrated Firebase services (Auth, Firestore, Cloud Functions, Messaging) with Vue.js client applications."
+          - "Managed container-based deployments with Docker and CapRover; used Laravel Forge for cloud infrastructure."
 
       - company: "Grupo VOPM"
         position: "PHP Developer"
@@ -53,11 +54,12 @@ cv:
         start_date: "2019-10"
         end_date: "2020-06"
         location: "On Site"
-        summary: "Led backend engineering for a WiFi hotspot management product, integrating networking hardware and analytics."
+        summary: "Led full-stack engineering for WiFi hotspot management platform and event attendance PWA, integrating hardware, analytics, and Vue.js frontends."
         highlights:
-          - "Maintained and expanded hotspot management platform; integrated Aruba, Ruckus, Fortinet, and TP-Link devices."
-          - "Implemented RADIUS-based authentication, quotas, and bandwidth control systems."
-          - "Delivered analytics dashboards and captive portal integrations for marketing and user insights."
+          - "Architected and deployed a Vue.js PWA for student event attendance with QR code generation and scanning for real-time access verification."
+          - "Maintained and expanded hotspot management platform; integrated Aruba, Ruckus, Fortinet, and TP-Link access points."
+          - "Implemented RADIUS-based authentication, quotas, and bandwidth control systems with Vue.js-powered admin dashboards."
+          - "Delivered interactive analytics dashboards and captive portal integrations using Vue.js for marketing and user insights."
 
       - company: "Prixet Technology"
         position: "Software Developer"
@@ -73,34 +75,37 @@ cv:
         start_date:
         end_date: "present"
         location:
-        summary: "Workforce management platform with GPS verification, real-time analytics, and mobile clock-in."
+        summary: "Workforce management platform with GPS verification, real-time analytics, and mobile clock-in built with Laravel and Vue.js."
         highlights:
-          - "Designed and developed the backend using Laravel."
-          - "Implemented GPS-based clock-in and employee time tracking."
-          - "Built real-time dashboards for workforce analytics."
-          - "Designed the system to scale for multiple companies and teams."
-          - "Deployed and maintained on Laravel Cloud."
+          - "Built full-stack application using Laravel backend and Vue.js/Inertia frontend for seamless real-time data sync."
+          - "Designed interactive GPS-based clock-in UI and employee time tracking dashboard with Vue.js reactive components."
+          - "Implemented real-time workforce analytics dashboards with live data visualization and filtering."
+          - "Architected system to scale for multiple companies and teams with multi-tenant support."
+          - "Deployed and maintained on Laravel Cloud with optimized Vue.js bundle delivery."
 
       - name: "[Cuernudos](https://cuernudos.com)"
         start_date:
         end_date: "present"
         location:
-        summary: "Anonymous web platform where users can share infidelity stories and browse community posts."
+        summary: "Anonymous community platform for sharing stories with real-time feed, moderation, and performance-optimized UI."
         highlights:
-          - "Built as a full-stack Laravel application using Livewire."
-          - "Focused on anonymity, performance, and content moderation."
-          - "Deployed and maintained on Laravel Cloud."
+          - "Built as full-stack Laravel + Livewire application with reactive Vue.js components for dynamic content loading."
+          - "Implemented real-time feed with lazy loading, infinite scroll, and optimized rendering for high-volume user interactions."
+          - "Designed anonymity-first frontend with client-side encryption and privacy controls."
+          - "Integrated automated content moderation system with admin dashboards built in Vue.js."
+          - "Deployed and maintained on Laravel Cloud with CDN optimization for media delivery."
 
       - name: "[Personal Portfolio](https://javierdev.dev)"
         start_date:
         end_date: "present"
         location:
-        summary: "Personal developer portfolio showcasing projects and technical skills."
+        summary: "Personal portfolio and blog showcasing full-stack projects and technical expertise in Vue.js and Laravel."
         highlights:
-          - "Developed using Laravel and modern frontend tooling."
-          - "Showcases professional experience, projects, and contact information."
-          - "Used as a personal brand and client-facing profile."
-          - "Deployed on Vercel"
+          - "Built with Nuxt 3 and Vue.js for modern, performant static generation with dynamic routing."
+          - "Features interactive project showcase, blog section, and real-time contact form integration."
+          - "Designed custom animations and responsive UI components using Vue 3 Composition API and Tailwind CSS."
+          - "SEO-optimized with Nuxt's built-in SSG and meta tag management."
+          - "Deployed on Vercel with automatic deployments and edge optimization."
 
     "Education":
       - institution: "UNAPEC"
@@ -116,13 +121,13 @@ cv:
           - "MongoDB PHP Developer Path"
 
     "Skills":
+      - label: "Frontend"
+        details: "Vue.js (3, Composition API), Nuxt 3, Inertia.js, Tailwind CSS, Vite, Pinia, Alpine.js"
       - label: "Backend"
         details: "PHP (Laravel), NestJS, REST APIs, GraphQL, MySQL, MongoDB, Redis, Queues"
-      - label: "Frontend"
-        details: "Vue.js, React.js, Tailwind CSS, Livewire, Inertia"
       - label: "DevOps & Cloud"
-        details: "AWS (EC2, S3, RDS), GCP (Cloud Run), DigitalOcean, Docker, NGINX, CapRover, Laravel Forge"
+        details: "AWS (EC2, S3, RDS), GCP (Cloud Run), DigitalOcean, Docker, NGINX, CapRover, Laravel Forge, Laravel Cloud, Vercel"
       - label: "Other"
-        details: "Socket.IO, ETL, Pentaho Data Integration, Firebase"
+        details: "Socket.IO, ETL, Firebase, Pentaho Data Integration, PWA Development"
 
   sort_entries: "none"
