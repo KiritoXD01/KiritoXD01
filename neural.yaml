@@ -15,22 +15,21 @@ cv:
       - "Full-stack developer with 5+ years building scalable web applications using Vue.js, Laravel, and Node.js. Expertise in modern frontend frameworks (Vue 3, Nuxt, Inertia) paired with backend architecture (Laravel, NestJS). Skilled in real-time systems, performance optimization, and deploying production-ready applications. Passionate about building responsive, data-driven UIs with composable, maintainable code."
 
     "Experience":
-      - company: "Curotec"
-        position: "Laravel Developer"
-        start_date: "2025-10"
-        end_date: "2026-01"
+      - company: "Neural"
+        position: "Senior Software Developer"
+        start_date: "2024-11"
+        end_date: "present"
         location: "Remote"
-        summary: "Develop and maintain backend services and APIs using Laravel; collaborate on deployments and performance improvements."
+        summary: "Help maintain and improve the codebase, ensuring it is secure with the latest securiy patches and code mitigation."
         highlights:
-          - "Design and implement REST APIs and background processing for production systems."
-          - "Collaborate with frontend and DevOps teams to deliver end-to-end features."
-          - "Implement Critical fixes for Livewire rendering issues"
-          - "Optimize Queue Job executions"
-
+            - "Ensure PHP/Python/JS Code is secure, performant, and maintainable"
+            - "Maintain CI/CD pipelines for automated testing and deployment"
+            - "Make sure the code is up to date with the latest security patches and best practices"
+            - "Help implement major features and maintain the codebase with security patches"
       - company: "Elaniin"
         position: "Backend Developer"
         start_date: "2021-06"
-        end_date: "2025-12"
+        end_date: "2024-10"
         location: "Remote"
         summary: "Led full-stack development for client projects using Laravel/Inertia and Vue.js, focusing on admin dashboards, real-time features, and API-first architectures."
         highlights:
