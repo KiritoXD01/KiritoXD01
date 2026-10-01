@@ -1,0 +1,141 @@
+cv:
+  name: "Javier Emmanuel Mercedes"
+  location: "República Dominicana"
+  email: "manuelmercedez10@gmail.com"
+  phone: "+1-829-422-1027"
+  website: "https://javierdev.dev"
+  social_networks:
+    - network: "LinkedIn"
+      username: "javier-emmanuel-mercedes"
+    - network: "GitHub"
+      username: "KiritoXD01"
+
+  sections:
+    "Sobre Mí":
+      - "Desarrollador full-stack con más de 5 años construyendo aplicaciones web escalables con Vue.js, Laravel y Node.js. Experiencia en frameworks modernos de frontend (Vue 3, Nuxt, Inertia) combinada con arquitectura backend (Laravel, NestJS). Hábil en sistemas en tiempo real, optimización del rendimiento y despliegue de aplicaciones listas para producción. Apasionado por crear interfaces responsivas basadas en datos con código componible y mantenible."
+
+    "Experiencia":
+      - company: "Neural"
+        position: "Desarrollador de Software Senior"
+        start_date: "2024-11"
+        end_date: "present"
+        location: "Remoto"
+        summary: "Ayudo a mantener y mejorar la base de código, garantizando que sea segura con los últimos parches de seguridad y mitigaciones de código."
+        highlights:
+          - "Garantizar que el código PHP/Python/JS sea seguro, eficiente y mantenible"
+          - "Mantener pipelines de CI/CD para pruebas automatizadas y despliegues"
+          - "Asegurar que el código esté actualizado con los últimos parches de seguridad y mejores prácticas"
+          - "Ayudar a implementar funcionalidades importantes y mantener la base de código con parches de seguridad"
+      - company: "Curotec"
+        position: "Desarrollador Laravel"
+        start_date: "2025-10"
+        end_date: "2026-01"
+        location: "Remoto"
+        summary: "Desarrollo y mantenimiento de servicios backend y APIs con Laravel; colaboración en despliegues y mejoras de rendimiento."
+        highlights:
+          - "Diseño e implementación de APIs REST y procesamiento en segundo plano para sistemas en producción."
+          - "Colaboración con equipos de frontend y DevOps para entregar funcionalidades de extremo a extremo."
+          - "Implementación de correcciones críticas para problemas de renderizado en Livewire"
+          - "Optimización de la ejecución de trabajos en cola (Queue Jobs)"
+
+      - company: "Elaniin"
+        position: "Desarrollador Backend"
+        start_date: "2021-06"
+        end_date: "2026-05"
+        location: "Remoto"
+        summary: "Lideré el desarrollo full-stack para proyectos de clientes usando Laravel/Inertia y Vue.js, enfocado en paneles de administración, funcionalidades en tiempo real y arquitecturas API-first."
+        highlights:
+          - "Construcción de múltiples proyectos con Laravel + Inertia + Vue.js para entrega rápida de paneles de administración."
+          - "Desarrollo de interfaces responsivas con Vue 3 Composition API y Nuxt para dashboards dinámicos y visualización de datos."
+          - "Diseño del backend de un juego NFT con NestJS y Socket.IO; integración del estado del juego en tiempo real con frontends en Vue.js."
+          - "Integración de servicios de Firebase (Auth, Firestore, Cloud Functions, Messaging) con aplicaciones cliente en Vue.js."
+          - "Gestión de despliegues basados en contenedores con Docker y CapRover; uso de Laravel Forge para infraestructura en la nube."
+
+      - company: "Grupo VOPM"
+        position: "Desarrollador PHP"
+        start_date: "2020-08"
+        end_date: "2021-06"
+        location: "Presencial"
+        summary: "Implementación de aplicaciones web, optimización de consultas a bases de datos y desarrollo de flujos ETL para consolidación de datos."
+        highlights:
+          - "Desarrollo de aplicaciones PHP/MySQL y mejora del rendimiento mediante optimización de consultas."
+          - "Construcción de procesos ETL con Pentaho y SSIS para agregar y transformar datos de múltiples fuentes."
+
+      - company: "Prixet Technology"
+        position: "Ingeniero de Software Senior Líder"
+        start_date: "2019-10"
+        end_date: "2020-06"
+        location: "Presencial"
+        summary: "Lideré la ingeniería full-stack para una plataforma de gestión de hotspots WiFi y una PWA de asistencia a eventos, integrando hardware, analítica y frontends en Vue.js."
+        highlights:
+          - "Diseño y despliegue de una PWA en Vue.js para el registro de asistencia a eventos estudiantiles con generación y escaneo de códigos QR para verificación de acceso en tiempo real."
+          - "Mantenimiento y expansión de la plataforma de gestión de hotspots; integración de puntos de acceso Aruba, Ruckus, Fortinet y TP-Link."
+          - "Implementación de autenticación basada en RADIUS, cuotas y sistemas de control de ancho de banda con paneles de administración en Vue.js."
+          - "Entrega de dashboards analíticos interactivos e integraciones con portales cautivos en Vue.js para marketing y análisis de usuarios."
+
+      - company: "Prixet Technology"
+        position: "Desarrollador de Software"
+        start_date: "2019-01"
+        end_date: "2019-10"
+        location: "Presencial"
+        summary: "Contribución al desarrollo backend con PHP y Laravel; apoyo en lanzamientos y corrección de errores."
+        highlights:
+          - "Implementación de funcionalidades backend centrales y participación en ciclos de lanzamiento."
+
+    proyectos:
+      - name: "[SheetThis](https://sheetthis.com)"
+        end_date: "present"
+        summary: "Plataforma de gestión de personal con verificación GPS, analítica en tiempo real y registro de entrada móvil, construida con Laravel y Vue.js."
+        highlights:
+          - "Construcción de la aplicación full-stack con backend en Laravel y frontend en Vue.js/Inertia para sincronización de datos en tiempo real."
+          - "Diseño de interfaz interactiva de registro con GPS y dashboard de control de horarios con componentes reactivos en Vue.js."
+          - "Implementación de dashboards analíticos de personal en tiempo real con visualización de datos en vivo y filtros."
+          - "Diseño del sistema para escalar a múltiples empresas y equipos con soporte multi-tenant."
+          - "Despliegue y mantenimiento en Laravel Cloud con entrega optimizada del bundle de Vue.js."
+
+      - name: "[Cuernudos](https://cuernudos.com)"
+        end_date: "present"
+        summary: "Plataforma comunitaria anónima para compartir historias con feed en tiempo real, moderación y UI optimizada para rendimiento."
+        highlights:
+          - "Construida como aplicación full-stack con Laravel + Livewire y componentes reactivos en Vue.js para carga dinámica de contenido."
+          - "Implementación de feed en tiempo real con carga diferida, scroll infinito y renderizado optimizado para alto volumen de interacciones."
+          - "Diseño de frontend con anonimato como prioridad, con cifrado del lado del cliente y controles de privacidad."
+          - "Integración de sistema automatizado de moderación de contenido con dashboards de administración en Vue.js."
+          - "Despliegue y mantenimiento en Laravel Cloud con optimización CDN para entrega de medios."
+
+      - name: "[Portafolio Personal](https://javierdev.dev)"
+        end_date: "present"
+        summary: "Portafolio personal y blog que muestra proyectos full-stack y experiencia técnica en Vue.js y Laravel."
+        highlights:
+          - "Construido con Nuxt 3 y Vue.js para generación estática moderna y eficiente con enrutamiento dinámico."
+          - "Incluye muestra interactiva de proyectos, sección de blog e integración de formulario de contacto en tiempo real."
+          - "Diseño de animaciones personalizadas y componentes UI responsivos con Vue 3 Composition API y Tailwind CSS."
+          - "Optimizado para SEO con SSG integrado de Nuxt y gestión de meta tags."
+          - "Desplegado en Vercel con despliegues automáticos y optimización en el edge."
+
+    "Educación":
+      - institution: "UNAPEC"
+        area: "Ingeniería de Software"
+        start_date: "2018-09"
+        end_date: "2023-10"
+        location: "República Dominicana"
+        highlights:
+          - "Desarrollador Laravel Certificado"
+          - "Fundamentos de NestJS"
+          - "Ruta de Desarrollador PHP con MongoDB"
+
+    "Habilidades":
+      - label: "Frontend"
+        details: "Vue.js (3, Composition API), Nuxt 3, Inertia.js, Tailwind CSS, Vite, Pinia, Alpine.js"
+      - label: "Backend"
+        details: "PHP (Laravel), NestJS, APIs REST, GraphQL, MySQL, MongoDB, Redis, Colas"
+      - label: "DevOps y Nube"
+        details: "AWS (EC2, S3, RDS), GCP (Cloud Run), DigitalOcean, Docker, NGINX, CapRover, Laravel Forge, Laravel Cloud, Vercel"
+      - label: "Otros"
+        details: "Socket.IO, ETL, Firebase, Pentaho Data Integration, Desarrollo PWA"
+
+locale:
+  language: spanish
+
+design:
+  theme: classic

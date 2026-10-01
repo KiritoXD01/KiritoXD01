@@ -20,16 +20,28 @@ cv:
         start_date: "2024-11"
         end_date: "present"
         location: "Remote"
-        summary: "Help maintain and improve the codebase, ensuring it is secure with the latest securiy patches and code mitigation."
+        summary: "Help maintain and improve the codebase, ensuring it is secure with the latest security patches and code mitigation."
         highlights:
-            - "Ensure PHP/Python/JS Code is secure, performant, and maintainable"
-            - "Maintain CI/CD pipelines for automated testing and deployment"
-            - "Make sure the code is up to date with the latest security patches and best practices"
-            - "Help implement major features and maintain the codebase with security patches"
+          - "Ensure PHP/Python/JS Code is secure, performant, and maintainable"
+          - "Maintain CI/CD pipelines for automated testing and deployment"
+          - "Make sure the code is up to date with the latest security patches and best practices"
+          - "Help implement major features and maintain the codebase with security patches"
+      - company: "Curotec"
+        position: "Laravel Developer"
+        start_date: "2025-10"
+        end_date: "2026-01"
+        location: "Remote"
+        summary: "Develop and maintain backend services and APIs using Laravel; collaborate on deployments and performance improvements."
+        highlights:
+          - "Design and implement REST APIs and background processing for production systems."
+          - "Collaborate with frontend and DevOps teams to deliver end-to-end features."
+          - "Implement Critical fixes for Livewire rendering issues"
+          - "Optimize Queue Job executions"
+
       - company: "Elaniin"
         position: "Backend Developer"
         start_date: "2021-06"
-        end_date: "2024-10"
+        end_date: "2026-05"
         location: "Remote"
         summary: "Led full-stack development for client projects using Laravel/Inertia and Vue.js, focusing on admin dashboards, real-time features, and API-first architectures."
         highlights:
@@ -69,12 +81,10 @@ cv:
         summary: "Contributed to backend development using PHP and Laravel; supported releases and bug fixes."
         highlights:
           - "Implemented core backend features and participated in release cycles."
-    
+
     projects:
       - name: "[SheetThis](https://sheetthis.com)"
-        start_date:
         end_date: "present"
-        location:
         summary: "Workforce management platform with GPS verification, real-time analytics, and mobile clock-in built with Laravel and Vue.js."
         highlights:
           - "Built full-stack application using Laravel backend and Vue.js/Inertia frontend for seamless real-time data sync."
@@ -84,9 +94,7 @@ cv:
           - "Deployed and maintained on Laravel Cloud with optimized Vue.js bundle delivery."
 
       - name: "[Cuernudos](https://cuernudos.com)"
-        start_date:
         end_date: "present"
-        location:
         summary: "Anonymous community platform for sharing stories with real-time feed, moderation, and performance-optimized UI."
         highlights:
           - "Built as full-stack Laravel + Livewire application with reactive Vue.js components for dynamic content loading."
@@ -96,9 +104,7 @@ cv:
           - "Deployed and maintained on Laravel Cloud with CDN optimization for media delivery."
 
       - name: "[Personal Portfolio](https://javierdev.dev)"
-        start_date:
         end_date: "present"
-        location:
         summary: "Personal portfolio and blog showcasing full-stack projects and technical expertise in Vue.js and Laravel."
         highlights:
           - "Built with Nuxt 3 and Vue.js for modern, performant static generation with dynamic routing."
@@ -110,11 +116,9 @@ cv:
     "Education":
       - institution: "UNAPEC"
         area: "Software Engineering"
-        degree:
         start_date: "2018-09"
         end_date: "2023-10"
         location: "Dominican Republic"
-        summary:
         highlights:
           - "Certified Laravel Developer"
           - "NestJS Fundamentals"
@@ -130,4 +134,8 @@ cv:
       - label: "Other"
         details: "Socket.IO, ETL, Firebase, Pentaho Data Integration, PWA Development"
 
-  sort_entries: "none"
+locale:
+  language: english
+
+design:
+  theme: classic
